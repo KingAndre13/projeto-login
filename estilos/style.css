@@ -24,7 +24,7 @@ body {
     background-color: white;
     transform: translate(-50%, -50%);
     width: 250px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 #imagem {
@@ -33,7 +33,7 @@ body {
     background-size: cover;
     width: 250px;
     height: 200px;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 #formulario {
@@ -81,4 +81,45 @@ form > div > input {
         border-radius: 10px;
         margin-left: 18px;
         background-color: #94cfcd;
+        font-size: 0.95em;
+}
+
+form > div > input:focus {
+    background-color: white;
+}
+
+#botao {
+    display: block;
+    margin: auto;
+    width: 230px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #53aaa7;
+    color: white;
+    font-size: 1em;
+}
+
+#botao:hover {
+    background-color: #2d6462;
+    cursor: pointer;
+}
+
+#esqsen {
+    display: block;
+    margin: auto;
+    width: 230px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #53aaa7;
+    color: #2d6462;
+    font-size: 1em;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#esqsen:hover {
+    background-color: #6CD3CF;
+    cursor: pointer;
 }

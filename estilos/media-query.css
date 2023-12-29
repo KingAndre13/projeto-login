@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+
+    body {
+        background-image: linear-gradient(to bottom, #5f2c82, #53aaa7);
+        height: 100vh;
+    }
+
+    #login {
+        position: absolute;
+        width: 710px;
+        height: 300px;
+    }
+
+    #imagem {
+        border-radius: 20px 0px 0px 20px;
+        width: 200px;
+        height: 300px;
+    }
+
+    #formulario {
+        position: relative;
+        bottom: 35%;
+        left: 65%;
+        transform: translate(-50%, -65%);
+        width: 500px;
+
+    }
+    form > div {
+        width: 480px;
+    }
+
+     form > div > input {
+        width: 425px;
+    }
+
+    #botao, #esqsen {
+        width: 480px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to bottom, #5f2c82, #53aaa7);
+        height: 100vh;
+    }
+
+    #login {
+        position: absolute;
+        width: 950px;
+        height: 350px;
+    }
+
+    #imagem {
+        float: right;
+        border-radius: 0px 20px 20px 0px;
+        width: 475px;
+        height: 350px;
+    }
+
+    #formulario {
+        position: relative;
+        bottom: -65%;
+        left: 24.5%;
+        transform: translate(-50%, -65%);
+        width: 450px;
+
+    }
+
+    #formulario > h1 {
+        font-size: 1.8em;
+    }
+
+    #formulario > p {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        line-height: 1.3em;
+        font-size: 1em;
+    }
+
+    form > div {
+        width: 460px;
+    }
+
+     form > div > input {
+        width: 404px;
+    }
+
+    #botao, #esqsen {
+        width: 460px;
+    }
+}

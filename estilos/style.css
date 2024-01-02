@@ -23,9 +23,10 @@ body {
     left: 50%;
     background-color: white;
     transform: translate(-50%, -50%);
+    overflow: hidden;
     width: 250px;
     border-radius: 20px;
-    box-shadow: 3px -1px 10px rgba(0, 0, 0, 0.389);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
 }
 
 #imagem {
@@ -34,7 +35,6 @@ body {
     background-size: cover;
     width: 250px;
     height: 200px;
-    border-radius: 20px 20px 0px 0px;
 }
 
 #formulario {

@@ -9,15 +9,13 @@
     }
 
     #login {
-        position: absolute;
-        width: 710px;
+        width: 90vw;
         height: 300px;
     }
 
-    #imagem {
-        border-radius: 20px 0px 0px 20px;
-        width: 200px;
-        height: 300px;
+     #imagem {
+        width: 30%;
+        height: 100%;
     }
 
     #formulario {
@@ -25,9 +23,13 @@
         bottom: 35%;
         left: 65%;
         transform: translate(-50%, -65%);
-        width: 500px;
-
+        width: 70%;
     }
+
+    #formulario > p {
+        margin-left: 22px;
+    }
+
     form > div {
         width: 480px;
     }
@@ -55,7 +57,6 @@
 
     #imagem {
         float: right;
-        border-radius: 0px 20px 20px 0px;
         width: 475px;
         height: 350px;
     }

@@ -27,12 +27,15 @@ body {
     width: 250px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width 0.1s, height 0.1s;
 }
 
 #imagem {
     background-image: url(../imagens/pexels-bruno-carvalho-15956898.jpg);
     background-position: center center;
     background-size: cover;
+    background-repeat: no-repeat;
     width: 250px;
     height: 200px;
 }
